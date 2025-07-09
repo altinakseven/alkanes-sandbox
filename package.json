@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "main": "lib/index.js",
   "scripts": {
+    "pretest": "node setup.js",
     "test": "pnpm build && mocha lib/**/*.spec.js",
     "test:debug": "pnpm build && NODE_ENV=debug mocha --reporter spec lib/**/*.spec.js",
-    "build": "tsc",
-    "postinstall": "./postinstall.sh"
+    "build": "tsc"
   },
   "keywords": [],
   "license": "MIT",
