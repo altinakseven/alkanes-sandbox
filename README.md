@@ -16,7 +16,7 @@ This is a TypeScript library for interacting with and analyzing Alkanes-compatib
 2.  Run `pnpm install`.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/altinakseven/alkanes-sandbox
 cd alkanes-sandbox
 pnpm install
 ```
