@@ -1,0 +1,23 @@
+{
+  "name": "alkanes-sandbox",
+  "author": "altinakseven",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "pnpm build && mocha lib/**/*.spec.js",
+    "test:debug": "pnpm build && NODE_ENV=debug mocha --reporter spec lib/**/*.spec.js",
+    "build": "tsc",
+    "postinstall": "./postinstall.sh"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "description": "run an alkane in a sandbox to read its metadata or fuzz opcodes",
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.0.12",
+    "mocha": "^11.7.1",
+    "nice-repl": "^0.1.2",
+    "ts-mocha": "^11.1.0",
+    "typescript": "^5.8.3"
+  }
+}

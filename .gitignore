@@ -1,0 +1,25 @@
+reference
+test-wasm/target
+# Node.js
+/node_modules
+/lib
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store
+
+# Rust
+/target
+Cargo.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# REPL history
+.node_repl_history
